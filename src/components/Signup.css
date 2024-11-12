@@ -1,0 +1,19 @@
+/* Container that holds the entire background */
+.signup-container {
+    background-image: url('https://t3.ftcdn.net/jpg/06/48/82/52/360_F_648825223_TBcDqLeHKE8uHkhTJq43YFS3opzTF0KJ.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.signup-card {
+    background: rgba(137, 223, 133, 0.9); /* Slight transparency */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(56, 6, 6, 0.2); /* Adds a soft shadow */
+    width: 100%;
+    max-width: 600px;
+}

@@ -1,0 +1,78 @@
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.9); /* Black background for the card */
+  color: #fff;
+  background-image: url("https://your-background-image-link.com"); /* Replace with the actual image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.join-chat {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.username-input,
+.message-input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.join-button,
+.send-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chat-room {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.messages-container {
+  border: 1px solid #444;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: #222; /* Darker background for messages */
+  border-radius: 4px;
+}
+
+.system-message {
+  color: gray;
+  font-style: italic;
+}
+
+.user-message {
+  margin: 5px 0;
+  color: #ddd; /* Light gray text for readability on dark background */
+}
+
+.timestamp {
+  font-size: small;
+  color: #888;
+}
